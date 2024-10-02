@@ -1,0 +1,26 @@
+# Ignore PlatformIO build files
+.pio/
+build/
+
+# Ignore PlatformIO dependencies
+libdeps/
+
+# Ignore Visual Studio Code settings and files
+.vscode/
+
+# Ignore PlatformIO environment configuration
+platformio.ini
+
+# Ignore test files if not needed in version control
+test/
+
+# Ignore other common OS or IDE-related files
+*.DS_Store  # macOS
+*.log
+*.tmp
+*.bak
+
+# Ignore compiled binary files
+*.elf
+*.bin
+*.hex
